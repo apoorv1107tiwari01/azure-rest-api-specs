@@ -1608,7 +1608,7 @@
       },
       "allOf": [
         {
-          "$ref": "./network.json#/definitions/Resource"
+          "$ref": "../../../../../common-types/resource-management/v6/types.json#/definitions/ProxyResource"
         }
       ],
       "description": "The network security perimeter profile resource"
@@ -1672,7 +1672,7 @@
       },
       "allOf": [
         {
-          "$ref": "./network.json#/definitions/Resource"
+          "$ref": "../../../../../common-types/resource-management/v6/types.json#/definitions/ProxyResource"
         }
       ],
       "description": "The NSP access rule resource"
@@ -1824,7 +1824,7 @@
       },
       "allOf": [
         {
-          "$ref": "./network.json#/definitions/Resource"
+          "$ref": "../../../../../common-types/resource-management/v6/types.json#/definitions/ProxyResource"
         }
       ],
       "description": "The NSP resource association resource"
@@ -1910,11 +1910,6 @@
           "description": "Resource type."
         }
       },
-      "allOf": [
-        {
-          "$ref": "./network.json#/definitions/Resource"
-        }
-      ],
       "description": "Resource that is onboarded to use network security perimeter. Also referred as perimeter associable resource."
     },
     "PerimeterAssociableResourcesListResult": {
@@ -2009,7 +2004,7 @@
       },
       "allOf": [
         {
-          "$ref": "./network.json#/definitions/ProxyResource"
+          "$ref": "../../../../../common-types/resource-management/v6/types.json#/definitions/ProxyResource"
         }
       ],
       "description": "The network security perimeter link resource"
@@ -2124,7 +2119,7 @@
       },
       "allOf": [
         {
-          "$ref": "./network.json#/definitions/ProxyResource"
+          "$ref": "../../../../../common-types/resource-management/v6/types.json#/definitions/ProxyResource"
         }
       ],
       "description": "The network security perimeter linkReference resource"
@@ -2236,7 +2231,7 @@
       "description": "The NSP logging configuration",
       "allOf": [
         {
-          "$ref": "./network.json#/definitions/ProxyResource"
+          "$ref": "../../../../../common-types/resource-management/v6/types.json#/definitions/ProxyResource"
         }
       ]
     },
